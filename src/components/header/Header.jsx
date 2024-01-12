@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../button/Button';
 import { useTelegram } from '../hooks/useTelegram';
 
-const Header = () => {
+const Header1 = () => {
     const {user, onClose} = useTelegram()
     return (
         <div className={'header'}>
@@ -15,4 +15,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header1;
